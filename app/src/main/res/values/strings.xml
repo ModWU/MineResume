@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">个人简历</string>
+    <string name="title">我的简历</string>
+
+    <string name="person_info_title">个人资料</string>
+    <string name="name">姓名:&#160;</string>
+    <string name="marray">婚姻状况:&#160;</string>
+    <string name="birthday">出生:&#160;</string>
+    <string name="political">政治面貌:&#160;</string>
+    <string name="sex">性别:&#160;</string>
+    <string name="nation">民族:&#160;</string>
+    <string name="degree">学位:&#160;</string>
+    <string name="phone">移动电话:&#160;</string>
+    <string name="major">专业:&#160;</string>
+    <string name="email">电子邮件:&#160;</string>
+    <string name="address">地址:&#160;</string>
+
+    <string name="education_back_title">教育背景</string>
+    <string name="major_course_title">主修课程</string>
+
+    <string name="person_ability_title">个人能力</string>
+    <string name="computer_capability_title">计算机技能</string>
+    <string name="english_level_title">英语水平</string>
+    <string name="awards_title">个人奖励</string>
+    <string name="self_assessment_title">自我评价</string>
+
+    <string name="btn_cancel">取消</string>
+    <string name="btn_saven">保存</string>
+
+    <string name="menu_create">创建</string>
+    <string name="menu_alert">修改</string>
+    <string name="menu_delete">删除</string>
+
+    <string name="null_text">--</string>
+
+    <string name="empty_description">暂无任何简历，您可以点击右上角菜单创建自己的简历</string>
+
+</resources>

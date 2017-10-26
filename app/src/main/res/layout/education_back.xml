@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/resume_subtitle_gargin"
+        android:layout_marginBottom="@dimen/resume_subtitle_gargin"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/education_back_title"
+            android:textStyle="bold"
+            android:textSize="@dimen/resume_other_title_size"
+            android:background="@color/other_title_backcolor"
+            />
+
+        <ImageButton
+            android:id="@+id/id_education_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        >
+        <ListView
+            android:id="@+id/id_education_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableLayout>
+
+</TableLayout>

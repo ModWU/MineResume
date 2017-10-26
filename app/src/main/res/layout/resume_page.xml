@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ll.wcc.com.mineresume.view.MainActivity"
+    >
+
+
+
+        <LinearLayout
+            android:padding="@dimen/resume_padding"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:paddingTop="@dimen/resume_title_padding"
+                android:paddingBottom="@dimen/resume_title_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/resume_title_size"
+                />
+
+            <TextView
+                android:id="@+id/id_id"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <include layout="@layout/persion_info"/>
+            <include layout="@layout/education_back"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/resume_subtitle_gargin"
+                    android:layout_marginBottom="@dimen/resume_subtitle_gargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/major_course_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/resume_other_title_size"
+                    android:background="@color/other_title_backcolor"
+                    />
+
+                <EditText
+                    android:id="@+id/id_majorCourse"
+                    style="@style/EditTextStyle"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/resume_subtitle_gargin"
+                    android:layout_marginBottom="@dimen/resume_subtitle_gargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/person_ability_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/resume_other_title_size"
+                    android:background="@color/other_title_backcolor"
+                    />
+
+                <EditText
+                    android:id="@+id/id_persionAbility"
+                    style="@style/EditTextStyle"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/resume_subtitle_gargin"
+                    android:layout_marginBottom="@dimen/resume_subtitle_gargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/computer_capability_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/resume_other_title_size"
+                    android:background="@color/other_title_backcolor"
+                    />
+
+                <EditText
+                    android:id="@+id/id_computerCapability"
+                    style="@style/EditTextStyle"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/resume_subtitle_gargin"
+                    android:layout_marginBottom="@dimen/resume_subtitle_gargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/english_level_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/resume_other_title_size"
+                    android:background="@color/other_title_backcolor"
+                    />
+
+                <EditText
+                    android:id="@+id/englishLevel"
+                    style="@style/EditTextStyle"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/resume_subtitle_gargin"
+                    android:layout_marginBottom="@dimen/resume_subtitle_gargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/awards_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/resume_other_title_size"
+                    android:background="@color/other_title_backcolor"
+                    />
+
+                <EditText
+                    android:id="@+id/id_awards"
+                    style="@style/EditTextStyle"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/resume_subtitle_gargin"
+                    android:layout_marginBottom="@dimen/resume_subtitle_gargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/self_assessment_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/resume_other_title_size"
+                    android:background="@color/other_title_backcolor"
+                    />
+
+                <EditText
+                    android:id="@+id/id_self_assessment"
+                    style="@style/EditTextStyle"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/id_bottomBtn_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/resume_bottomBtn_padding"
+                android:paddingTop="@dimen/resume_bottomBtn_padding"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/id_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="@string/btn_cancel"
+                    android:background="@null"
+                    />
+
+                <Button
+                    android:id="@+id/id_save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="@string/btn_saven"
+                    android:background="@null"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</ScrollView>
