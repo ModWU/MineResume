@@ -95,7 +95,7 @@ public class ResumeInfo {
     }
 
     public void setEnglishLevel(String englishLevel) {
-        englishLevel = englishLevel;
+        this.englishLevel = englishLevel;
     }
 
     public String getAwards() {
